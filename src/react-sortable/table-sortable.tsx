@@ -18,14 +18,12 @@ export const TableSortable: FC<
   useEffect(() => {
     if (!tableRef.current) return;
     const rowEl = tableRef.current.querySelector('.ant-table-tbody');
-    const sortIns = new Sortable(rowEl, {
+    new Sortable(rowEl, {
       animation: 150,
       // group: 'list',
       handle: '.draggble-btn',
       onSort: function (e: any) {
         const { newIndex, oldIndex } = e;
-        console.log('newIndex', newIndex);
-        console.log('oldIndex', oldIndex);
         // 为什么这里的索引都会比真实的大1 ？？
         const newValueOptions = arrayMoveImmutable(
           dataSourceRef.current || [],
