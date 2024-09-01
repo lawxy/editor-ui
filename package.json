@@ -20,6 +20,7 @@
     "lib"
   ],
   "scripts": {
+    "analyze": "cross-env ANALYZE=1 dumi build",
     "build": "father build",
     "build:watch": "father dev",
     "dev": "dumi dev",
@@ -73,6 +74,7 @@
     "@types/react-dom": "^18.0.0",
     "@types/sortablejs": "^1.15.8",
     "@umijs/lint": "^4.0.0",
+    "cross-env": "^7.0.3",
     "dumi": "^2.3.0",
     "eslint": "^8.23.0",
     "father": "^4.1.0",
