@@ -5,6 +5,7 @@ export default defineConfig({
   cjs: { output: 'lib' },
   umd: {
     output: 'umd',
+    name: 'RoddanUI',
     externals: {
       react: 'React',
       'react-dom': 'ReactDOM',
