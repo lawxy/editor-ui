@@ -1,15 +1,7 @@
 {
-  "name": "@roddan/ui",
+  "name": "@sobot/form-editor-ui",
   "version": "0.0.4",
   "description": "A react library developed with dumi",
-  "homepage": "https://github.com/lawxy/editor-ui",
-  "bugs": {
-    "url": "https://github.com/lawxy/editor-ui"
-  },
-  "repository": {
-    "type": "github",
-    "url": "https://github.com/lawxy/editor-ui"
-  },
   "license": "MIT",
   "author": "Roddan",
   "main": "lib/index.js",
@@ -59,7 +51,7 @@
   "dependencies": {
     "@ant-design/icons": "^5.3.7",
     "@monaco-editor/loader": "^1.4.0",
-    "antd": "^5.8.1",
+    "antd": "4.17.0",
     "array-move": "^4.0.0",
     "classnames": "^2.5.1",
     "lodash-es": "^4.17.21",
@@ -93,6 +85,6 @@
   },
   "publishConfig": {
     "access": "public",
-    "registry": "https://registry.npmjs.org/"
+    "registry": "https://npm.zhichidata.com/"
   }
 }

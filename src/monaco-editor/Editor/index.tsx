@@ -14,7 +14,8 @@ import { type EditorProps } from './types';
 
 loader.config({
   paths: {
-    vs: 'https://cdn.jsdelivr.net/gh/lawxy/workers@2.0/vs',
+    // vs: 'https://cdn.jsdelivr.net/gh/lawxy/workers@2.0/vs',
+    vs: 'https://img.sobot.com/static-resource/editorWorkers/vs',
   },
 });
 

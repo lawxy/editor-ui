@@ -1,5 +1,5 @@
 // import { MonacoReact } from '@tsword/editor-cmp';
-import { MonacoEditor } from '@tsword/editor-cmp';
+import { MonacoEditor } from '@sobot/form-editor-ui';
 import React from 'react';
 
 const Comp = () => {

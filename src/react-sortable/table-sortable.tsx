@@ -7,7 +7,7 @@ import { MenuOutlined } from '@ant-design/icons';
 import { arrayMoveImmutable } from 'array-move';
 
 export const TableSortable: FC<
-  TableProps & {
+  TableProps<any> & {
     onSort: (v: any) => void;
   }
 > = ({ onSort, ...props }) => {
